@@ -646,8 +646,8 @@ img{
     display: grid;
     -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 55px;
-    grid-row-gap:55px;
+    column-gap: 55px;
+    row-gap:55px;
     padding: 0 100px;
 }
 .benefits__card{
@@ -738,8 +738,8 @@ img{
     display: grid;
     -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
     grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 .places__card{
     position: relative;
@@ -814,7 +814,7 @@ img{
     display: grid;
     -ms-grid-columns: 1fr 108px 1fr;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 108px;
+    column-gap: 108px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -868,8 +868,8 @@ img{
     display: grid;
     -ms-grid-columns: 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr 57px 1fr;
     grid-template-columns: repeat(6,1fr);
-    grid-column-gap: 57px;
-    grid-row-gap: 57px;
+    column-gap: 57px;
+    row-gap: 57px;
 }
 .top__card{
     display: -webkit-box;
@@ -1057,8 +1057,8 @@ img{
         padding: 70px 15px;
     }
     .benefits__cards{
-        grid-column-gap: 25px;
-        grid-row-gap:25px;
+        column-gap: 25px;
+        row-gap:25px;
         padding: 0 15px;
     }
     .benefits__card{
@@ -1078,7 +1078,7 @@ img{
            object-position: 0 100%;
     }
     .tours__tour{
-        grid-column-gap: 35px;
+        column-gap: 35px;
         margin-bottom: 38px;
     }
     .tours__tour:last-child{
@@ -1094,8 +1094,8 @@ img{
         margin-bottom: 100px;
     }
     .top__cards{
-        grid-column-gap: 25px;
-        grid-row-gap: 55px;
+        column-gap: 25px;
+        row-gap: 55px;
     }
     .top__card{
         -ms-grid-column-span: 3;
@@ -1252,7 +1252,7 @@ img{
         margin-bottom: 40px;
     }
     .top__cards{
-        grid-row-gap: 40px;
+        row-gap: 40px;
     }
     .top__card{
         -ms-grid-column-span: 6;
